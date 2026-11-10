@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive sample website built with CSS media queries.">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a class="logo" href="#">BrightWeb</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO BRIGHTWEB</p>
+                    <h1>A better experience on every screen.</h1>
+                    <p>Explore a clean, flexible website layout that adapts to desktops, tablets, and mobile phones.</p>
+                    <a class="button" href="#services">Explore services</a>
+                </div>
+                <div class="hero-art" role="img" aria-label="Abstract colorful shapes">
+                    <div class="shape shape-one"></div>
+                    <div class="shape shape-two"></div>
+                    <div class="shape shape-three"></div>
+                    <span>DESIGN<br>FOR ALL</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">WHO WE ARE</p>
+                <h2>Designed to fit your screen</h2>
+                <p class="section-intro">Responsive design keeps content readable and easy to use, whatever device visitors choose.</p>
+            </div>
+            <div class="feature-grid" id="services">
+                <article class="feature-card">
+                    <div class="feature-icon">01</div>
+                    <h3>Flexible layouts</h3>
+                    <p>Grid and flexbox help content rearrange naturally as the available space changes.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">02</div>
+                    <h3>Readable content</h3>
+                    <p>Comfortable spacing and responsive text sizes make every section easier to read.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">03</div>
+                    <h3>Mobile ready</h3>
+                    <p>Navigation, cards, and buttons adapt for smaller touch screens.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="container contact-content">
+                <div>
+                    <p class="eyebrow">GET IN TOUCH</p>
+                    <h2>Ready to build for everyone?</h2>
+                    <p>This sample page demonstrates a responsive desktop-to-mobile layout.</p>
+                </div>
+                <a class="button button-light" href="mailto:hello@example.com">Contact us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">© 2026 BrightWeb. Responsive design practice project.</div>
+    </footer>
+</body>
+</html>
